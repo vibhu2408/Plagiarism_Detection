@@ -7,8 +7,8 @@
 4. File Descriptions
 5. Instructions
 6. Licensing, Authors, and Acknowledgements
-7. Project Overview
 
+## Project Overview
 In this project, we will be building a plagiarism detector that examines a text file and performs binary classification; labeling that file as either plagiarized or not, depending on how similar that text file is to a provided source text. Detecting plagiarism is an active area of research; the task is non-trivial and the differences between paraphrased answers and original work are often not so obvious.
 
 One of the ways we might go about detecting plagiarism, is by computing similarity features that measure how similar a given text file is as compared to an original source text. We can develop as many features as we want and are required to define a couple as outlined in this paper. In this paper, researchers created features called containment and longest common subsequence.
