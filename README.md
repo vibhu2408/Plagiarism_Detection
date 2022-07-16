@@ -38,12 +38,12 @@ Evaluate your deployed classifier.
 ## Installation
 We will be using the below AWS platform services along with Data Processing & Machine Learning Libraries to implement the project.
 
-Amazon SageMaker service.
-Amazon S3 service
-Amazon IAM service
-Data Processing & Machine Learning Libraries: NumPy, Pandas, Scikit-Learn
-The code should run with no issues using Python versions 3.*
-File Descriptions
+* Amazon SageMaker service.
+* Amazon S3 service
+* Amazon IAM service
+* Data Processing & Machine Learning Libraries: NumPy, Pandas, Scikit-Learn
+* The code should run with no issues using Python versions 3.*
+* File Descriptions
 There is one folder and other files:
 
 source_sklearn
