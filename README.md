@@ -46,13 +46,13 @@ We will be using the below AWS platform services along with Data Processing & Ma
 * File Descriptions
 There is one folder and other files:
 
-## source_sklearn
-train.py: It is the training script which will be executed when the model is trained and it contains the necessary code to train our model.
-1. Data_Exploration.ipynb - It is a jupyter notebook which contains the necessary code to explore the plagiarism data.
-2. Plagiarism_Feature_Engineering.ipynb - It is a jupyter notebook which contains the necessary code for feature engineering.
-3. Training_a_Model.ipynb - It is a jupyter notebook which contains the necessary code to create, train and deploy the model in SageMaker.
-helpers.py: It is the script which contains all the helper functions used during the entire project.
-problem_unittests.py: It is the script which contains all the unit tests used during the entire project.
+1. source_sklearn
+  * train.py: It is the training script which will be executed when the model is trained and it contains the necessary code to train our model.
+2. Data_Exploration.ipynb - It is a jupyter notebook which contains the necessary code to explore the plagiarism data.
+3. Plagiarism_Feature_Engineering.ipynb - It is a jupyter notebook which contains the necessary code for feature engineering.
+4. Training_a_Model.ipynb - It is a jupyter notebook which contains the necessary code to create, train and deploy the model in SageMaker.
+5. helpers.py: It is the script which contains all the helper functions used during the entire project.
+6. problem_unittests.py: It is the script which contains all the unit tests used during the entire project.
 ## Instructions
 The plagiarism detection project which we will be working on is intended to be done using Amazon's SageMaker platform. In particular, it is assumed that we have a working notebook instance in which we can clone the plagiarism detection repository. We will clone the https://github.com/udacity/ML_SageMaker_Studies repository and th en work on the project.
 
