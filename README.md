@@ -46,11 +46,11 @@ We will be using the below AWS platform services along with Data Processing & Ma
 * File Descriptions
 There is one folder and other files:
 
-source_sklearn
+## source_sklearn
 train.py: It is the training script which will be executed when the model is trained and it contains the necessary code to train our model.
-1_Data_Exploration.ipynb - It is a jupyter notebook which contains the necessary code to explore the plagiarism data.
-2_Plagiarism_Feature_Engineering.ipynb - It is a jupyter notebook which contains the necessary code for feature engineering.
-3_Training_a_Model.ipynb - It is a jupyter notebook which contains the necessary code to create, train and deploy the model in SageMaker.
+1. Data_Exploration.ipynb - It is a jupyter notebook which contains the necessary code to explore the plagiarism data.
+2. Plagiarism_Feature_Engineering.ipynb - It is a jupyter notebook which contains the necessary code for feature engineering.
+3. Training_a_Model.ipynb - It is a jupyter notebook which contains the necessary code to create, train and deploy the model in SageMaker.
 helpers.py: It is the script which contains all the helper functions used during the entire project.
 problem_unittests.py: It is the script which contains all the unit tests used during the entire project.
 ## Instructions
